@@ -54,6 +54,8 @@
 
 #### Record level
 
+#### Record level
+
 <table>
 	<thead>
 		<tr>
@@ -75,7 +77,7 @@
 		</tr>
         <tr>
 			<td>How to use</td>
-			<td>Provide a name or acronym for the institution or organization that houses the specimen or coordinated the observation. If the institution or organization is registered in the <a href="https://scientific-collections.gbif.org/)"> Global Registry of Scientific Collections </a>, please use the code listed there. For lab collections managed in-house, please provide the name of the lab.</td>
+			<td>Provide a name or acronym for the institution or organization that houses the specimen or coordinated the observation. If the institution or organization is registered in the <a href="https://scientific-collections.gbif.org/)"> Global Registry of Scientific Collections</a>, please use the code listed there. For lab collections managed in-house, please provide the name of the lab.</td>
 		</tr>
 		<tr>
 			<td>Examples</td>
@@ -110,7 +112,7 @@
 		</tr>
         <tr>
 			<td>Rationale</td>
-			<td>This term is *required for publication to GBIF*. This term describes the type of occurrence record to indicate whether it includes a specimen or if it is an observation.</td>
+			<td>This term is required for publication to GBIF and describes the type of occurrence record, which is essential context for interpretation.</td>
 		</tr>
         <tr>
 			<td>Requirement</td>
@@ -118,12 +120,12 @@
 		</tr>
         <tr>
 			<td>How to use</td>
-			<td>*This term uses a controlled vocabulary*. The Wild Bee Data Standard follows the GBIF vocabulary for the basis of record. <ul class="list-group list-group-flush">
-            <li class="list-group-item">Controlled vocabulary list for dwc:basisOfRecord:</li>
+			<td>This term uses a controlled vocabulary. <i>The Wild Bee Data Standard</i> follows the GBIF vocabulary for the basis of record. <ul class="list-group list-group-flush">
+            <li class="list-group-item">Controlled vocabulary list for <b>dwc:basisOfRecord</b>:</li>
 				<ul><li class="list-group-item">PreservedSpecimen, to describe labeled wild bee specimens preserved on pins or in vials.</li>
 				<li class="list-group-item">HumanObservation, to describe wild bees or plants observed in the field and captured in photographs taken in person when using non-lethal sampling methods.</li>
 				<li class="list-group-item">MachineObservation, to describe wild bees captured in photographs taken via camera trap when using non-lethal sampling methods.</li>
-				<li class="list-group-item">MaterialEntity, taken from the Darwin Core vocabulary for dwc:basisOfRecord to describe genetic or pathogen material.</li>
+				<li class="list-group-item">MaterialEntity, taken from the Darwin Core vocabulary for <b>dwc:basisOfRecord</b> to describe genetic or pathogen material.</li>
 				<li class="list-group-item">MachineCitation, to describe occurrences gathered from published literature.</li>
 				</ul>
             </ul></td>
@@ -138,7 +140,7 @@
 		</tr>
 		<tr>
 			<td>For more detail</td>
-			<td><a href="https://dwc.tdwg.org/terms/#dwc:basisOfRecord"> https://dwc.tdwg.org/terms/#dwc:basisOfRecord </a>, <a href="https://docs.gbif.org/course-data-use/en/basis-of-record.html "> https://docs.gbif.org/course-data-use/en/basis-of-record.html  </a></td>
+			<td><a href="https://dwc.tdwg.org/terms/#dwc:basisOfRecord"> https://dwc.tdwg.org/terms/#dwc:basisOfRecord</a>, <a href="https://docs.gbif.org/course-data-use/en/basis-of-record.html"> https://docs.gbif.org/course-data-use/en/basis-of-record.html</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -160,7 +162,7 @@
 		</tr>
         <tr>
 			<td>Requirement</td>
-			<td>Core, if applicable (see rationale)</td>
+			<td>Core, if applicable (see rationale).</td>
 		</tr>
         <tr>
 			<td>How to use</td>
@@ -179,7 +181,7 @@
 		</tr>
 		<tr>
 			<td>For more detail</td>
-			<td><a href=" https://dwc.tdwg.org/terms/#dwc:informationWithheld ">  https://dwc.tdwg.org/terms/#dwc:informationWithheld </a></td>
+			<td><a href=" https://dwc.tdwg.org/terms/#dwc:informationWithheld">  https://dwc.tdwg.org/terms/#dwc:informationWithheld</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -199,7 +201,7 @@
 		</tr>
         <tr>
 			<td>Rationale</td>
-			<td>This term is *required for publication to GBIF*. Unique identifiers simplify and standardize data management and sharing practices.</td>
+			<td>This term is required for publication to GBIF. Unique identifiers simplify and standardize data management and sharing practices.</td>
 		</tr>
         <tr>
 			<td>Requirement</td>
@@ -207,11 +209,11 @@
 		</tr>
         <tr>
 			<td>How to use</td>
-			<td>We advise creating universally unique identifiers, or UUIDs, to serve as occurrenceIDs. These can be created using R packages, Excel macros, or website applications. While GBIF will not generate these for you, consider that uploading to a CMS automatically creates dwc:occurrenceIDs for each record. </td>
+			<td>We advise creating universally unique identifiers, or UUIDs, to serve as <b>dwc:occurrenceID</b>s. These can be created using R packages, Excel macros, or website applications. While GBIF will not generate these for you, consider that uploading to a CMS automatically creates <b>dwc:occurrenceID</b>s for each record. </td>
 		</tr>
 		<tr>
 			<td>Example</td>
-			<td> 8d13f958-10fa-490a-8c32-5938be9d2037 </td>
+			<td>8d13f958-10fa-490a-8c32-5938be9d2037</td>
 		</tr>
         <tr>
 			<td>Relevant protocols</td>
@@ -219,7 +221,7 @@
 		</tr>
 		<tr>
 			<td>For more detail</td>
-			<td><a href="https://dwc.tdwg.org/terms/#dwc:occurrenceID"> https://dwc.tdwg.org/terms/#dwc:occurrenceID </a>, <a href="https://www.gbif.org/data-quality-requirements-occurrences#dcOccurrenceID ">https://www.gbif.org/data-quality-requirements-occurrences#dcOccurrenceID </a></td>
+			<td><a href="https://dwc.tdwg.org/terms/#dwc:occurrenceID"> https://dwc.tdwg.org/terms/#dwc:occurrenceID</a>, <a href="https://www.gbif.org/data-quality-requirements-occurrences#dcOccurrenceID">https://www.gbif.org/data-quality-requirements-occurrences#dcOccurrenceID</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -237,15 +239,15 @@
 		</tr>
         <tr>
 			<td>Rationale</td>
-			<td>Physical specimens accessioned into a collection will have a unique ID assigned to them; that number gets reported through dwc:catalogNumber to reference back to the original dataset. </td>
+			<td>Physical specimens accessioned into a collection will have a unique ID assigned to them; that number gets reported through <b>dwc:catalogNumber</b> to reference back to the original dataset. </td>
 		</tr>
         <tr>
 			<td>Requirement</td>
-			<td>Core, if applicable (see rationale)</td>
+			<td>Core, if applicable (see rationale).</td>
 		</tr>
         <tr>
 			<td>How to use</td>
-			<td>Use dwc:catalogNumber to share the unique ID of a record or specimen in an original dataset or collection. To improve uniqueness, human-readability, and machine interpretation in large, multi-institution datasets, please include a sufficient amount of both letters and numbers when creating these IDs.</td>
+			<td>Use this term to share the unique ID of a record or specimen in an original dataset or collection. To improve uniqueness, human-readability, and machine interpretation in large, multi-institution datasets, please include a sufficient amount of both letters and numbers when creating these IDs.</td>
 		</tr>
 		<tr>
 			<td>Examples</td>
@@ -283,7 +285,7 @@
 		</tr>
         <tr>
 			<td>How to use</td>
-			<td>Use full names (First Last) whenever possible. When multiple collectors are working simultaneously, list the specimens collected by each collector individually. If that is not possible, the primary collector or observer should be listed first. Separate the values in a list with space vertical bar space ( | ); this separator is used throughout the Darwin Core standard to concatenate multiple entries in a cell. Please be sure to record the number of collectors in the dwc:samplingEffort term.</td>
+			<td>Use full names (First [Middle Initial, if provided] Last) whenever possible. When multiple collectors are working simultaneously, list the specimens collected by each collector individually. If that is not possible, the primary collector or observer should be listed first. Separate the values in a list with space vertical bar space ( | ); this separator is used throughout the Darwin Core standard to concatenate multiple entries in a cell. Please be sure to record the number of collectors in <b>dwc:samplingEffort</b>.</td>
 		</tr>
 		<tr>
 			<td>Examples</td>
@@ -330,8 +332,8 @@
 			<td>How to use</td>
 			<td>Report the number of individual organisms counted in the occurrence. Only whole numbers are permitted. When sampling for focal species (Otto et al., 2024), if they are not found at a sampling site, use this term to report non-detections.
 			<ul class="list-group list-group-flush">
-            <li class="list-group-item">A 0 entry for dwc:individualCount represents a non-detection.</li>
-			<li class="list-group-item">Most records will have an entry of 1 for dwc:individualCount, as most records correspond to an observation or collection (a detection) of a single organism.</li>
+            <li class="list-group-item">A 0 entry for <b>dwc:individualCount</b> represents a non-detection.</li>
+			<li class="list-group-item">Most records will have an entry of 1 for <b>dwc:individualCount</b>, as most records correspond to an observation or collection (a detection) of a single organism.</li>
 			<li class="list-group-item">Entries larger than 1 are possible in some cases; for example:</li>
 				<ul><li class="list-group-item">If a large number of the same species is collected, but only a subset of specimens of that species are preserved.</li>
 				<li class="list-group-item">If multiple bees of the same species are in a photo observation on a plant.</li>
@@ -345,11 +347,11 @@
 		</tr>
         <tr>
 			<td>Relevant protocols</td>
-			<td>All, but particularly important for the focal species protocol (Otto et al., 2024)</td>
+			<td>All, but particularly important for the focal species protocol (Otto et al., 2024).</td>
 		</tr>
 		<tr>
 			<td>For more detail</td>
-			<td><a href="https://dwc.tdwg.org/terms/#dwc:individualCount "> https://dwc.tdwg.org/terms/#dwc:individualCount</a>, <a href="https://www.gbif.org/data-quality-requirements-occurrences#dcCount "> https://www.gbif.org/data-quality-requirements-occurrences#dcCount </a></td>
+			<td><a href="https://dwc.tdwg.org/terms/#dwc:individualCount"> https://dwc.tdwg.org/terms/#dwc:individualCount</a>, <a href="https://www.gbif.org/data-quality-requirements-occurrences#dcCount"> https://www.gbif.org/data-quality-requirements-occurrences#dcCount </a></td>
 		</tr>
 	</tbody>
 </table>
@@ -377,7 +379,7 @@
 			<td>How to use</td>
 			<td>This term uses a controlled vocabulary. Although the Darwin Core standard recommends the use of “present” and “absent” to designate occurrence status, we suggest observers instead use “detected” and “not detected” when recording results from sampling events.  Absence is seldom known with certainty and we recommend avoiding the use of this term during data collection.
 			<ul class="list-group list-group-flush">
-			<li class="list-group-item">Controlled vocabulary list for dwc:occurrenceStatus:</li>
+			<li class="list-group-item">Controlled vocabulary list for <b>dwc:occurrenceStatus</b>:</li>
 				<ul><li class="list-group-item">Detected</li>
 				<li class="list-group-item">Not detected</li>
 				</ul>
@@ -389,7 +391,7 @@
 		</tr>
         <tr>
 			<td>Relevant protocols</td>
-			<td>All, but particularly important for the focal species protocol (Otto et al., 2024)</td>
+			<td>All, but particularly important for the focal species protocol (Otto et al., 2024).</td>
 		</tr>
 		<tr>
 			<td>For more detail</td>
@@ -413,7 +415,7 @@
 		</tr>
         <tr>
 			<td>Rationale</td>
-			<td>This term is *required for publication to GBIF*.</td>
+			<td>This term is required for publication to GBIF. Providing a collection or observation date provides essential context for interpreting an occurrence.</td>
 		</tr>
         <tr>
 			<td>Requirement</td>
@@ -421,17 +423,17 @@
 		</tr>
         <tr>
 			<td>How to use</td>
-			<td>Recommended best practice is to use a date that conforms to ISO 8601-1:2019. Provide the date or dates sampling occurred in YYYY-MM-DD format. If reporting an interval of dates, separate the dates with /. Please be sure to provide accompanying sampling protocol and effort information in the terms dwc:samplingProtocol, dwc:sampleSizeValue, dwc:sampleSizeUnit, and dwc:samplingEffort.
+			<td>Recommended best practice is to use a date that conforms to ISO 8601-1:2019. Provide the date or dates sampling occurred in YYYY-MM-DD format. If reporting an interval of dates, separate the dates with a slash ( / ). Please be sure to provide accompanying sampling protocol and effort information in the terms <b>dwc:samplingProtocol</b>, <b>dwc:sampleSizeValue</b>, <b>dwc:sampleSizeUnit</b>, and <b>dwc:samplingEffort</b>.
 			</td>
 		</tr>
 		<tr>
 			<td>Examples</td>
 			<td><ul class="list-group list-group-flush">
 			<li class="list-group-item">2015-08-14</li>
-				<ul><li class="list-group-item">For single day sampling</li>
+				<ul><li class="list-group-item">For single day sampling.</li>
 				</ul>
 			<li class="list-group-item">2015-08-14T16:00:00/2015-08-15T16:00:00</li>
-				<ul><li class="list-group-item">For sampling over a maximum 24 hour period that spans two dates: This is interpreted as: collections started on August 14, 2015 at 4pm local time and ended August 15, 2015 at 4pm local time. Note that in this case, dwc:eventTime does not need to be provided, but can be, as it is included in dwc:eventDate.</li>
+				<ul><li class="list-group-item">For sampling over a maximum 24 hour period that spans two dates. This is interpreted as: collections started on August 14, 2015 at 4pm local time and ended August 15, 2015 at 4pm local time. Note that in this case, <b>dwc:eventTime</b> does not need to be provided, but can be, as the sampling time interval is included in <b>dwc:eventDate</b>.</li>
 				</ul>
 				</ul></td>
 		</tr>
@@ -441,7 +443,7 @@
 		</tr>
 		<tr>
 			<td>For more detail</td>
-			<td><a href="https://dwc.tdwg.org/terms/#dwc:eventDate "> https://dwc.tdwg.org/terms/#dwc:eventDate </a>, <a href="https://www.gbif.org/data-quality-requirements-occurrences#dcEventDate "> https://www.gbif.org/data-quality-requirements-occurrences#dcEventDate  </a></td>
+			<td><a href="https://dwc.tdwg.org/terms/#dwc:eventDate"> https://dwc.tdwg.org/terms/#dwc:eventDate</a>, <a href="https://www.gbif.org/data-quality-requirements-occurrences#dcEventDate "> https://www.gbif.org/data-quality-requirements-occurrences#dcEventDate</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -459,7 +461,7 @@
 		</tr>
         <tr>
 			<td>Rationale</td>
-			<td>This term is used in conjunction with dwc:eventDate to clarify the sampling time interval but can only be used when sampling occurs on a single day.</td>
+			<td>This term is used in conjunction with <b>dwc:eventDate</b> to clarify the sampling time interval and is best used when sampling occurs on a single day.</td>
 		</tr>
         <tr>
 			<td>Requirement</td>
@@ -467,17 +469,17 @@
 		</tr>
         <tr>
 			<td>How to use</td>
-			<td>Recommended best practice is to use a time that conforms to ISO 8601-1:2019. Report in local time. Report the total time interval of collection, covering the start and end time of either passive trap deployment or active sampling. The correct format is start time/end time. Use dwc:samplingEffort to report the duration of sampling time in hours, person-hours, or decimals of hours or person-hours. Please be sure to provide accompanying sampling protocol and effort information in the terms dwc:samplingProtocol, dwc:sampleSizeValue, dwc:sampleSizeUnit, and dwc:samplingEffort.
+			<td>Recommended best practice is to use a time that conforms to ISO 8601-1:2019. Report in local time. Report the total sampling time interval, covering the start and end time of either passive trap deployment or active sampling. The correct format is start time/end time. Use <b>dwc:samplingEffort</b> to report the duration of sampling time in hours, person-hours, or decimals of hours or person-hours. Please be sure to provide accompanying sampling protocol and effort information in the terms <b>dwc:samplingProtocol</b>, <b>dwc:sampleSizeValue</b>, <b>dwc:sampleSizeUnit</b>, and <b>dwc:samplingEffort</b>.
 			</td>
 		</tr>
 		<tr>
 			<td>Examples</td>
 			<td><ul class="list-group list-group-flush">
 			<li class="list-group-item">09:00/15:00, 09:30/09:40, 11:50/12:00, 14:15/14:25</li>
-				<ul><li class="list-group-item">For a 24-hour interval, please use dwc:eventDate instead.</li>
+				<ul><li class="list-group-item">For a 24-hour sampling time interval, please use <b>dwc:eventDate</b> instead.</li>
 				</ul>
 			<li class="list-group-item">08:30/08:30</li>
-				<ul><li class="list-group-item">If choosing to report a 24-hour interval.</li>
+				<ul><li class="list-group-item">If choosing to report a 24-hour sampling time interval.</li>
 				</ul>
 				</ul></td>
 		</tr>
@@ -505,7 +507,7 @@
 		</tr>
         <tr>
 			<td>Rationale</td>
-			<td>Separating the full dwc:eventDate into year, month, and day simplifies data entry and sorting for analysis.</td>
+			<td>Separating the full <b>dwc:eventDate</b> into year, month, and day simplifies data entry and sorting for analysis.</td>
 		</tr>
         <tr>
 			<td>Requirement</td>
@@ -543,7 +545,7 @@
 		</tr>
         <tr>
 			<td>Rationale</td>
-			<td>Separating the full dwc:eventDate into year, month, and day simplifies data entry and sorting for analysis.</td>
+			<td>Separating the full <b>dwc:eventDate</b> into year, month, and day simplifies data entry and sorting for analysis.</td>
 		</tr>
         <tr>
 			<td>Requirement</td>
@@ -581,15 +583,15 @@
 		</tr>
         <tr>
 			<td>Rationale</td>
-			<td>Separating the full dwc:eventDate into year, month, and day simplifies data entry and sorting for analysis.</td>
+			<td>Separating the full <b>dwc:eventDate</b> into year, month, and day simplifies data entry and sorting for analysis.</td>
 		</tr>
         <tr>
 			<td>Requirement</td>
-			<td>Core, if applicable (see How to use)</td>
+			<td>Core, if applicable (see How to use).</td>
 		</tr>
         <tr>
 			<td>How to use</td>
-			<td>This is a numeric field. Enter the one or two digit day of the month when the sampling event occurred. If sampling occurred over multiple days; i.e., passive traps were used, do not use this term, as it only records one day. The terms dwc:year and dwc:month should still be used if sampling occurred over multiple days.</td>
+			<td>This is a numeric field. Enter the one or two digit day of the month when the sampling event occurred. If sampling occurred over multiple days; i.e., passive traps were used, do not use this term, as it only records one day. The terms <b>dwc:year</b> and <b>dwc:month</b> should still be used if sampling occurred over multiple days.</td>
 		</tr>
 		<tr>
 			<td>Examples</td>
@@ -615,11 +617,11 @@
 	<tbody>
 		<tr>
 			<td>Definition</td>
-			<td>The names of, references to, or descriptions of the methods or protocols used during a sampling event. </td>
+			<td>The names of, references to, or descriptions of the methods or protocols used during a sampling event.</td>
 		</tr>
         <tr>
 			<td>Rationale</td>
-			<td>Describing the sampling method(s) used is a requirement for some types of species distribution models. It also improves replicability of study methods and provides insights into life-history useful for recollection.</td>
+			<td>Describing the sampling method(s) used is a requirement for some types of species distribution models. It also improves replicability of study methods and provides insights into life-history that may be useful for recollection.</td>
 		</tr>
         <tr>
 			<td>Requirement</td>
@@ -628,7 +630,7 @@
         <tr>
 			<td>How to use</td>
 			<td>This term uses two controlled vocabularies; one for active sampling methods and one for passive sampling methods. Additionally, some of the active sampling entries are provided using key:value pairs. Select the sampling method used from the list of allowable entries. <ul class="list-group list-group-flush">
-			<li class="list-group-item">Controlled vocabulary lists for dwc:samplingProtocol:</li>
+			<li class="list-group-item">Controlled vocabulary lists for <b>dwc:samplingProtocol</b>:</li>
 				<ul><li class="list-group-item">Active sampling: hand net:lethal, hand net:released, sweep net:lethal, sweep net:released, vial:lethal, vial:released, photograph, visual observation</li>
 				<li class="list-group-item">Passive sampling: bowl traps, glycol cups, malaise traps, vane traps</li>
 				</ul>
@@ -687,7 +689,7 @@
 		</tr>
         <tr>
 			<td>How to use</td>
-			<td>Use of this term varies with active or passive sampling methods, but it must always be used with dwc:sampleSizeUnit. Provide a number of sampling units specific to passive samples (number of traps collected) or active samples (number of collectors or observers)</td>
+			<td>Use of this term varies with active or passive sampling methods, but it must always be used with <b>dwc:sampleSizeUnit</b>. Provide a number of sampling units specific to passive samples (number of traps collected) or active samples (number of collectors or observers).</td>
 		</tr>
 		<tr>
 			<td>Examples</td>
@@ -725,8 +727,8 @@
 		</tr>
         <tr>
 			<td>How to use</td>
-			<td>This term uses a controlled vocabulary. Use of this term varies with active or passive sampling methods, but it must always be used with dwc:sampleSizeValue. Provide a sampling unit specific to passive samples ([type of] traps collected) or active samples (collectors or observers)<ul class="list-group list-group-flush">
-			<li class="list-group-item">Controlled vocabulary list for dwc:sampleSizeUnit:</li>
+			<td>This term uses a controlled vocabulary. Use of this term varies with active or passive sampling methods, but it must always be used with <b>dwc:sampleSizeValue</b>. Provide a sampling unit specific to passive samples ([type of] traps collected) or active samples (collectors or observers)<ul class="list-group list-group-flush">
+			<li class="list-group-item">Controlled vocabulary list for <b>dwc:sampleSizeUnit</b>:</li>
 				<ul><li class="list-group-item">bowl, cup, Malaise, or vane traps collected</li>
 				<li class="list-group-item">collectors</li>
 				<li class="list-group-item">observers</li>
@@ -773,25 +775,25 @@
 		</tr>
         <tr>
 			<td>How to use</td>
-			<td>This term is used to report both sampling area (in metric units) and duration of sampling time. Report duration of passive sampling time in hours or decimals of hours. Report duration of active sampling time in person-hours (i.e., the amount of work done by one person in one hour) or decimals of person-hours. If reporting both sampling area and duration of sampling time, separate them with space vertical bar space ( | ); this separator is used throughout the Darwin Core standard to concatenate multiple entries in a cell. Use dwc:eventDate to report the start and end times of sampling.</td>
+			<td>This term is used to report both sampling area (in metric units) and duration of sampling time. Report duration of passive sampling time in hours or decimals of hours. Report duration of active sampling time in person-hours (i.e., the amount of work done by one person in one hour) or decimals of person-hours. If reporting both sampling area and duration of sampling time, separate them with space vertical bar space ( | ); this separator is used throughout the Darwin Core standard to concatenate multiple entries in a cell. Use <b>dwc:eventDate</b> to report the start and end times of sampling.</td>
 		</tr>
 		<tr>
 			<td>Examples</td>
 			<td><ul class="list-group list-group-flush">
 			<li class="list-group-item">100 m transect, 1 ha, 100m2</li>
-				<ul><li class="list-group-item">For reporting amount of area sampled </li>
+				<ul><li class="list-group-item">For reporting amount of area sampled.</li>
 				</ul>
 			<li class="list-group-item">6 hours, 24 hours</li>
-				<ul><li class="list-group-item">When recording duration of passive sampling</li>
+				<ul><li class="list-group-item">When recording duration of passive sampling.</li>
 				</ul>
 			<li class="list-group-item">0.6 person-hours</li>
-				<ul><li class="list-group-item">Total time spent active sampling in person-hours; in this case, 2 people each spent 20 minutes surveying live bees</li>
+				<ul><li class="list-group-item">Total time spent active sampling in person-hours; in this case, 2 people each spent 20 minutes surveying live bees.</li>
 				</ul>
 			<li class="list-group-item">0.25 person-hours</li>
-				<ul><li class="list-group-item">Total time spent active sampling in person-hours; in this case, 1 person spent 15 minutes netting</li>
+				<ul><li class="list-group-item">Total time spent active sampling in person-hours; in this case, 1 person spent 15 minutes netting.</li>
 				</ul>
 			<li class="list-group-item">0.5 ha plot | 0.5 hours</li>
-				<ul><li class="list-group-item">Recording both area sampled and duration of passive sampling time</li>
+				<ul><li class="list-group-item">Recording both area sampled and duration of passive sampling time.</li>
 				</ul>
 				</ul></td>
 		</tr>
@@ -821,7 +823,7 @@
 		</tr>
         <tr>
 			<td>Rationale</td>
-			<td>Providing finer grain location information supports data filtering for analysis.</td>
+			<td>Providing descriptive location information for an occurrence provides essential context for interpretation and supports data filtering for analysis.</td>
 		</tr>
         <tr>
 			<td>Requirement</td>
@@ -841,7 +843,7 @@
 		</tr>
 		<tr>
 			<td>For more detail</td>
-			<td><a href="https://dwc.tdwg.org/terms/#dwc:country "> https://dwc.tdwg.org/terms/#dwc:country</a></td>
+			<td><a href="https://dwc.tdwg.org/terms/#dwc:country"> https://dwc.tdwg.org/terms/#dwc:country</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -855,11 +857,11 @@
 	<tbody>
 		<tr>
 			<td>Definition</td>
-			<td>he name of the next smaller administrative region than the country (state, province, etc.) in which the sampling occurs.</td>
+			<td>The name of the next smaller administrative region than the country (state, province, etc.) in which the sampling occurs.</td>
 		</tr>
         <tr>
 			<td>Rationale</td>
-			<td>Providing finer-grain location information supports data filtering for analysis.</td>
+			<td>Providing finer-grain descriptive location information for an occurrence provides essential context for interpretation and supports data filtering for analysis.</td>
 		</tr>
         <tr>
 			<td>Requirement</td>
@@ -893,11 +895,11 @@
 	<tbody>
 		<tr>
 			<td>Definition</td>
-			<td>The geographic latitude (in decimal degrees, using the spatial reference system given in dwc:geodeticDatum) of the geographic center of a sampling location. </td>
+			<td>The geographic latitude (in decimal degrees, using the spatial reference system given in <b>dwc:geodeticDatum</b>) of the geographic center of a sampling location. </td>
 		</tr>
         <tr>
 			<td>Rationale</td>
-			<td>A precise location of a wild bee observation supports species status assessments, distribution models, and other analyses relying on occurrence location.</td>
+			<td>A precise location of a wild bee occurrence provides essential context for interpretation. Providing a precise location supports species status assessments, distribution models, and other analyses relying on occurrence location.</td>
 		</tr>
         <tr>
 			<td>Requirement</td>
@@ -931,11 +933,11 @@
 	<tbody>
 		<tr>
 			<td>Definition</td>
-			<td>The geographic longitude (in decimal degrees, using the spatial reference system given in dwc:geodeticDatum) of the geographic center of a sampling location.</td>
+			<td>The geographic longitude (in decimal degrees, using the spatial reference system given in <b>dwc:geodeticDatum</b>) of the geographic center of a sampling location.</td>
 		</tr>
         <tr>
 			<td>Rationale</td>
-			<td>A precise location of a wild bee observation supports species status assessments, distribution models, and other analyses relying on occurrence location.</td>
+			<td>A precise location of a wild bee occurrence provides essential context for interpretation. Providing a precise location supports species status assessments, distribution models, and other analyses relying on occurrence location.</td>
 		</tr>
         <tr>
 			<td>Requirement</td>
@@ -969,11 +971,11 @@
 	<tbody>
 		<tr>
 			<td>Definition</td>
-			<td>The horizontal distance (in meters) from the given dwc:decimalLatitude and dwc:decimalLongitude describing the smallest circle containing the sampling location.</td>
+			<td>The horizontal distance (in meters) from the given <b>dwc:decimalLatitude</b> and <b>dwc:decimalLongitude</b> describing the smallest circle containing the sampling location.</td>
 		</tr>
         <tr>
 			<td>Rationale</td>
-			<td>A precise location of a wild bee observation supports species status assessments, distribution models, and other analyses relying on occurrence location. Sometimes the location of an observation must be masked for species or other security; the extent of masking can be provided here.</td>
+			<td>A precise location of a wild bee occurrence provides essential context for interpretation. Providing a precise location supports species status assessments, distribution models, and other analyses relying on occurrence location. Sometimes the location of an occurrence must be masked for species or other security; the extent of masking can be provided here.</td>
 		</tr>
         <tr>
 			<td>Requirement</td>
@@ -981,19 +983,19 @@
 		</tr>
         <tr>
 			<td>How to use</td>
-			<td>Report this value if coordinates are obtained from a GPS device, including a phone or non-professional grade GPS. The coordinate uncertainty for these devices is likely around 10 meters. Leave the value empty if the uncertainty is unknown, cannot be estimated, or is not applicable (because there are no coordinates). Zero is not a valid value for this term. This value, in most cases for current and future specimen collection, should not be greater than 10. Exceptions include if the occurrence location is masked for security reasons or if the most accurate coordinates available are less precise, as is the case for many historically-collected specimens.</td>
+			<td>If coordinates are obtained from a GPS device, including a phone or non-professional grade GPS, the coordinate uncertainty for these devices is likely around 10 meters. Leave the value empty if the uncertainty is unknown, cannot be estimated, or is not applicable (because there are no coordinates). Zero is not a valid value for this term. This value, in most cases for current and future specimen collection, should not be greater than 10. Exceptions include if the occurrence location is masked for security reasons or if the most accurate coordinates available are less precise, as is the case for many historically-collected specimens.</td>
 		</tr>
 		<tr>
 			<td>Examples</td>
 			<td><ul class="list-group list-group-flush">
 			<li class="list-group-item">10 </li>
-				<ul><li class="list-group-item">When precise GPS-derived coordinates with four decimal places are provided (see dwc:decimalLatitude and dwc:decimalLongitude)</li>
+				<ul><li class="list-group-item">When precise GPS-derived coordinates with four decimal places are provided (see <b>dwc:decimalLatitude</b> and <b>dwc:decimalLongitude</b>)</li>
 				</ul>
 			<li class="list-group-item">0.1</li>
 				<ul><li class="list-group-item">When coordinates are derived from geographic computer software (i.e., Google Maps or GIS programs) with six decimal places.</li>
 				</ul>
 			<li class="list-group-item">100, 1000</li>
-				<ul><li class="list-group-item">When occurrence location is masked by 100 meters, if providing GPS-derived coordinates with three decimal places, or 1 km, if providing GPS-derived coordinates with two decimal places. Report any location masking, if applicable, in dwc:informationWithheld.</li>
+				<ul><li class="list-group-item">When occurrence location is masked by 100 meters, if providing GPS-derived coordinates with three decimal places, or 1 km, if providing GPS-derived coordinates with two decimal places. Report any location masking, if applicable, in <b>dwc:informationWithheld</b>.</li>
 				</ul>
 				</ul></td>
 		</tr>
@@ -1003,7 +1005,7 @@
 		</tr>
 		<tr>
 			<td>For more detail</td>
-			<td><a href="https://dwc.tdwg.org/terms/#dwc:coordinateUncertaintyInMeters "> https://dwc.tdwg.org/terms/#dwc:coordinateUncertaintyInMeters </a>, <a href="https://www.gbif.org/data-quality-requirements-occurrences#dcUncertainty"> https://www.gbif.org/data-quality-requirements-occurrences#dcUncertainty </a></td>
+			<td><a href="https://dwc.tdwg.org/terms/#dwc:coordinateUncertaintyInMeters"> https://dwc.tdwg.org/terms/#dwc:coordinateUncertaintyInMeters</a>, <a href="https://www.gbif.org/data-quality-requirements-occurrences#dcUncertainty"> https://www.gbif.org/data-quality-requirements-occurrences#dcUncertainty</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -1031,7 +1033,7 @@
 		</tr>
         <tr>
 			<td>How to use</td>
-			<td>Use full names (First [Middle Initial, if provided] Last) whenever possible. Separate the values in a list with space vertical bar space ( | ); this separator is used throughout the Darwin Core standard to concatenate multiple entries in a cell. This term can be used in conjunction with dwc:identifiedByID to connect the occurrence to the identifying personnel through platforms such as <a href="https://bionomia.net/"> Bionomia</a>.</td>
+			<td>Use full names (First [Middle Initial, if provided] Last) whenever possible. Separate the values in a list with space vertical bar space ( | ); this separator is used throughout the Darwin Core standard to concatenate multiple entries in a cell. This term can be used in conjunction with <b>dwc:identifiedByID</b> to connect the occurrence to the identifying personnel through platforms such as <a href="https://bionomia.net/"> Bionomia</a>.</td>
 		</tr>
 		<tr>
 			<td>Examples</td>
@@ -1070,7 +1072,7 @@
 		</tr>
         <tr>
 			<td>Rationale</td>
-			<td>This term is required for publication to GBIF. Further, accurate identification to the lowest taxonomic rank possible creates the most useful data from a set of occurrences.</td>
+			<td>This term is required for publication to GBIF. Accurate identification to the lowest taxonomic rank possible creates the most useful data from a set of occurrences.</td>
 		</tr>
         <tr>
 			<td>Requirement</td>
@@ -1078,11 +1080,11 @@
 		</tr>
         <tr>
 			<td>How to use</td>
-			<td>This should be the name in lowest level taxonomic rank that can be determined. This term should not contain identification qualifications, which should instead be supplied in the dwc:identificationQualifier term. Authorship of the scientific name, including the date, can also be provided separately in dwc:scientificNameAuthorship.</td>
+			<td>This should be the name in lowest level taxonomic rank that can be determined. This term should not contain identification qualifications, which should instead be supplied in the <b>dwc:identificationQualifier</b> term. Authorship of the scientific name, including the date, can also be provided separately in <b>dwc:scientificNameAuthorship</b>.</td>
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>Hymenoptera, Halictidae, Sphecodes sp., Osmia atriventris (Cresson, 1864)</td>
+			<td>Hymenoptera, Halictidae, <i>Sphecodes</i> sp., <i>Osmia atriventris</i> (Cresson, 1864)</td>
 		</tr>
         <tr>
 			<td>Relevant protocols</td>
@@ -1090,7 +1092,7 @@
 		</tr>
 		<tr>
 			<td>For more detail</td>
-			<td><a href="https://dwc.tdwg.org/terms/#dwc:scientificName "> https://dwc.tdwg.org/terms/#dwc:scientificName </a>, <a href="https://www.gbif.org/data-quality-requirements-occurrences#dcSciName "> https://www.gbif.org/data-quality-requirements-occurrences#dcSciName </a></td>
+			<td><a href="https://dwc.tdwg.org/terms/#dwc:scientificName"> https://dwc.tdwg.org/terms/#dwc:scientificName</a>, <a href="https://www.gbif.org/data-quality-requirements-occurrences#dcSciName"> https://www.gbif.org/data-quality-requirements-occurrences#dcSciName</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -1108,7 +1110,7 @@
 		</tr>
         <tr>
 			<td>Rationale</td>
-			<td>Separating the full dwc:scientificName into genus and specific epithet simplifies data entry and sorting for analysis.</td>
+			<td>Separating the full <b>dwc:scientificName</b> into genus and specific epithet simplifies data entry and sorting for analysis.</td>
 		</tr>
         <tr>
 			<td>Requirement</td>
@@ -1120,7 +1122,7 @@
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>Andrena, Coelioxys</td>
+			<td><i>Andrena</i>, <i>Coelioxys</i></td>
 		</tr>
         <tr>
 			<td>Relevant protocols</td>
@@ -1142,11 +1144,11 @@
 	<tbody>
 		<tr>
 			<td>Definition</td>
-			<td>The name of the first or species epithet of the dwc:scientificName.</td>
+			<td>The name of the first or species epithet of the <b>dwc:scientificName</b>.</td>
 		</tr>
         <tr>
 			<td>Rationale</td>
-			<td>Separating the full dwc:scientificName into genus and specific epithet simplifies data entry and sorting for analysis.</td>
+			<td>Separating the full <b>dwc:scientificName</b> into genus and specific epithet simplifies data entry and sorting for analysis.</td>
 		</tr>
         <tr>
 			<td>Requirement</td>
@@ -1158,7 +1160,7 @@
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>mirabilis, carlini, sp./td>
+			<td><i>mirabilis</i>, <i>carlini</i>, sp.</td>
 		</tr>
         <tr>
 			<td>Relevant protocols</td>
