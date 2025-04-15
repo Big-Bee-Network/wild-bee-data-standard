@@ -1358,27 +1358,27 @@
 			<td>Definition</td>
 			<td>A document indicating the preferred terms of data use by the data provider.</td>
 		</tr>
-        <tr>
+        	<tr>
 			<td>Rationale</td>
 			<td>Assigning a license to a dataset informs users what can be done with that dataset and the appropriate crediting procedure. Some data providers do not want their data used for commercial purposes and can specify that with their license choice.</td>
 		</tr>
-        <tr>
+        	<tr>
 			<td>Requirement</td>
 			<td>Recommended</td>
 		</tr>
-        <tr>
+        	<tr>
 			<td>How to use</td>
 			<td>Choose a Creative Commons license that aligns with the desired potential use cases of the dataset and crediting criteria of the provider. Provide a link to the full license terms. Licenses to use include: public domain, CC-BY, CC-BY-SA, CC-BY-NC, or CC-BY-NC-SA. You may provide the name of the license holder with the optional term <b>dwc:rightsHolder</b>.</td>
 		</tr>
 		<tr>
 			<td>Examples</td>
 			<td><ul class="list-group list-group-flush">
-			<li class="list-group-item"><a href="https://creativecommons.org/publicdomain/zero/1.0/"> https://creativecommons.org/publicdomain/zero/1.0/</a></li>
-			<li class="list-group-item"><a href="https://creativecommons.org/licenses/by/4.0/"> https://creativecommons.org/licenses/by/4.0/</a></li>
-			<li class="list-group-item"><a href="https://creativecommons.org/licenses/by-sa/4.0/"> https://creativecommons.org/licenses/by-sa/4.0/</a></li>
+				<li class="list-group-item"><a href="https://creativecommons.org/publicdomain/zero/1.0/"> https://creativecommons.org/publicdomain/zero/1.0/</a></li>
+				<li class="list-group-item"><a href="https://creativecommons.org/licenses/by/4.0/"> https://creativecommons.org/licenses/by/4.0/</a></li>
+				<li class="list-group-item"><a href="https://creativecommons.org/licenses/by-sa/4.0/"> https://creativecommons.org/licenses/by-sa/4.0/</a></li>
 				</ul></td>
 		</tr>
-        <tr>
+        	<tr>
 			<td>Relevant protocols</td>
 			<td>All</td>
 		</tr>
@@ -1400,15 +1400,15 @@
 			<td>Definition</td>
 			<td>An identifier for the institution having custody of the object(s) or information referred to in the record.</td>
 		</tr>
-        <tr>
+        	<tr>
 			<td>Rationale</td>
 			<td>Provides a location where occurrence information came from; may be used to find a point of contact for more information about an occurrence.</td>
 		</tr>
-        <tr>
+       	 	<tr>
 			<td>Requirement</td>
 			<td>Recommended</td>
 		</tr>
-        <tr>
+        	<tr>
 			<td>How to use</td>
 			<td>If available, use identifiers from the <a href="https://scientific-collections.gbif.org/"> Global Registry of Scientific Collections</a>.</td>
 		</tr>
@@ -1416,7 +1416,7 @@
 			<td>Examples</td>
 			<td><a href="http://grscicoll.org/institution/american-museum-natural-history"> http://grscicoll.org/institution/american-museum-natural-history</a> </td>
 		</tr>
-        <tr>
+        	<tr>
 			<td>Relevant protocols</td>
 			<td>All</td>
 		</tr>
@@ -1678,10 +1678,10 @@
 			<td>How to use</td>
 			<td>This term uses a controlled vocabulary. Specify the appropriate disposition from the controlled vocabulary list. If using different terms, please define them in <b>dwc:materialEntityRemarks</b>. <ul class="list-group list-group-flush">
 			<li class="list-group-item">Controlled vocabulary list for <b>dwc:disposition</b>:</li>
-				<ul><li class="list-group-item">In collection: specimen is preserved in a collection.</li>
-				<li class="list-group-item">Missing: specimen is missing from the collection.</li>
-				<li class="list-group-item">On loan: specimen is on loan to another institution, organization, or individual.</li>
-				<li class="list-group-item">Deaccessioned: specimen has been permanently removed from the collection. </li>
+				<ul><li class="list-group-item">inCollection: specimen is preserved in a collection.</li>
+				<li class="list-group-item">missing: specimen is missing from the collection.</li>
+				<li class="list-group-item">onLoan: specimen is on loan to another institution, organization, or individual.</li>
+				<li class="list-group-item">destroyed: specimen has been destroyed.</li>
 				</ul>
 				</ul> 	
 				</td>
@@ -1689,8 +1689,8 @@
 		<tr>
 			<td>Examples</td>
 			<td><ul class="list-group list-group-flush">
-			<li class="list-group-item">in collection</li>
-			<li class="list-group-item">Deaccessioned</li>
+			<li class="list-group-item">inCollection</li>
+			<li class="list-group-item">destroyed</li>
 			<li class="list-group-item">Awaiting processing (with details provided in <b>dwc:materialEntityRemarks</b>)</li>
 			<li class="list-group-item">Missing head (with details provided in <b>dwc:materialEntityRemarks</b>)</li>
 				</ul>
@@ -1851,7 +1851,7 @@
 	<tbody>
 		<tr>
 			<td>Definition</td>
-			<td>The ellipsoid, geodetic datum, or spatial reference system (SRS) upon which the geographic coordinates given in <b>dwc:decimalLatitude</b> and <b>dwc:decimalLongitude</b> are based.</td>
+			<td>The ellipsoid, geodetic datum, or spatial reference system upon which the geographic coordinates given in <b>dwc:decimalLatitude</b> and <b>dwc:decimalLongitude</b> are based.</td>
 		</tr>
         <tr>
 			<td>Rationale</td>
@@ -1863,11 +1863,11 @@
 		</tr>
         <tr>
 			<td>How to use</td>
-			<td>List the datum of the coordinates.</td>
+			<td>The best practice is to use the <a href="https://epsg.io/">EPSG code</a> for the datum or spatial reference system. The EPSG code for WGS84 is <a href="https://epsg.io/4326">EPSG:4326</a>. If an EPSG code is not available, the name of the datum or spatial reference system may be provided.</td>
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>EPSG:4326, WGS84, NAD27</td>
+			<td>EPSG:4326, EPSG:4269, WGS84, NAD27, NAD83</td>
 		</tr>
         <tr>
 			<td>Relevant protocols</td>
@@ -2410,10 +2410,10 @@
 			<td>How to use</td>
 			<td>This term uses a controlled vocabulary. Provide the appropriate category following the controlled vocabulary list.	<ul class="list-group list-group-flush">
 			<li class="list-group-item">Controlled vocabulary list for <b>dwc:lifeStage</b>:</li>
-				<ul><li class="list-group-item">Egg</li>
-				<li class="list-group-item">Larva</li>
-				<li class="list-group-item">Pupa</li>
-				<li class="list-group-item">Adult</li>
+				<ul><li class="list-group-item">egg</li>
+				<li class="list-group-item">larva</li>
+				<li class="list-group-item">pupa</li>
+				<li class="list-group-item">adult</li>
 				</ul></td>
 		</tr>
 		<tr>
@@ -2422,7 +2422,7 @@
 		</tr>
         <tr>
 			<td>Relevant protocols</td>
-			<td>All, but particularly important for the focal species protocol (Otto et al., 2024).</td>
+			<td>All, particularly the occupancy of focal species protocol (Otto et al., 2024).</td>
 		</tr>
 		<tr>
 			<td>For more detail</td>
@@ -2454,9 +2454,9 @@
 			<td>How to use</td>
 			<td>This term uses a controlled vocabulary. Provide the appropriate category following the controlled vocabulary list.	<ul class="list-group list-group-flush">
 			<li class="list-group-item">Controlled vocabulary list for <b>dwc:caste</b>:</li>
-				<ul><li class="list-group-item">Queen</li>
-				<li class="list-group-item">Worker</li>
-				<li class="list-group-item">Drone</li>
+				<ul><li class="list-group-item">queen</li>
+				<li class="list-group-item">worker</li>
+				<li class="list-group-item">drone</li>
 				</ul></td>
 		</tr>
 		<tr>
@@ -2465,7 +2465,7 @@
 		</tr>
         <tr>
 			<td>Relevant protocols</td>
-			<td>All, but particularly important for the focal species protocol (Otto et al., 2024).</td>
+			<td>All, particularly the occupancy of focal species protocol (Otto et al., 2024).</td>
 		</tr>
 		<tr>
 			<td>For more detail</td>
@@ -2497,10 +2497,10 @@
 			<td>How to use</td>
 			<td>This term uses a controlled vocabulary. Provide the appropriate category following the controlled vocabulary list.	<ul class="list-group list-group-flush">
 			<li class="list-group-item">Controlled vocabulary list for <b>dwc:behavior</b>:</li>
-				<ul><li class="list-group-item">Foraging</li>
-				<li class="list-group-item">Collecting pollen</li>
-				<li class="list-group-item">Collecting nectar</li>
-				<li class="list-group-item">Nesting</li>
+				<ul><li class="list-group-item">foraging</li>
+				<li class="list-group-item">collecting pollen</li>
+				<li class="list-group-item">collecting nectar</li>
+				<li class="list-group-item">nesting</li>
 				</ul></td>
 		</tr>
 		<tr>
@@ -2509,7 +2509,7 @@
 		</tr>
         <tr>
 			<td>Relevant protocols</td>
-			<td>All, but particularly important for the focal species protocol (Otto et al., 2024).</td>
+			<td>All, particularly the occupancy of focal species protocol (Otto et al., 2024).</td>
 		</tr>
 		<tr>
 			<td>For more detail</td>
@@ -2541,9 +2541,9 @@
 			<td>How to use</td>
 			<td>This term uses a controlled vocabulary. Provide the appropriate category following the controlled vocabulary list.	<ul class="list-group list-group-flush">
 			<li class="list-group-item">Controlled vocabulary list for <b>dwc:vitality</b>:</li>
-				<ul><li class="list-group-item">Alive</li>
-				<li class="list-group-item">Dead</li>
-				<li class="list-group-item">Moribund</li>
+				<ul><li class="list-group-item">alive</li>
+				<li class="list-group-item">dead</li>
+				<li class="list-group-item">moribund</li>
 				</ul></td>
 		</tr>
 		<tr>
@@ -2552,7 +2552,7 @@
 		</tr>
         <tr>
 			<td>Relevant protocols</td>
-			<td>All, but particularly important for the focal species protocol (Otto et al., 2024).</td>
+			<td>All, particularly the occupancy of focal species protocol (Otto et al., 2024).</td>
 		</tr>
 		<tr>
 			<td>For more detail</td>
@@ -2632,7 +2632,7 @@
 		<tr>
 			<td>Examples</td>
 			<td><ul class="list-group list-group-flush">
-			<li class="list-group-item">{“Parasitized by”:<a href="https://www.gbif.org/occurrence/2851169659"> https://www.gbif.org/occurrence/2851169659</a>}</li>
+			<li class="list-group-item">{“parasitized by”:<a href="https://www.gbif.org/occurrence/2851169659"> https://www.gbif.org/occurrence/2851169659</a>}</li>
 			<ul><li class="list-group-item">Describes an associated occurrence of a parasitic bee.</li>
 				</ul>
 			</ul>
@@ -2687,7 +2687,7 @@
 		</tr>
         <tr>
 			<td>Relevant protocols</td>
-			<td>All, particularly the communities protocol (Levenson et al., 2024b).</td>
+			<td>All, particularly the communities protocol (Levenson et al., 2024).</td>
 		</tr>
 		<tr>
 			<td>For more detail</td>
@@ -2783,7 +2783,7 @@
 	<tbody>
 		<tr>
 			<td>Definition</td>
-			<td>Comments or notes about a dwc:MaterialEntity.</td>
+			<td>Comments or notes about a <MaterialEntity.</td>
 		</tr>
         <tr>
 			<td>Rationale</td>
@@ -3050,8 +3050,8 @@
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td><ul class="list-group list-group-flush"><li class="list-group-item">0.0001</li>
-			<ul><li class="list-group-item">precise to 10 m; best practice for <i>The Wild Bee Data Standard</i>. Associated with GPS-derived coordinates with four decimal places.</li>
+			<td><ul class="list-group list-group-flush"><li class="list-group-item">0.00001</li>
+			<ul><li class="list-group-item">precise to 5 m; best practice for <i>The Wild Bee Data Standard</i>. Associated with GPS-derived coordinates with five decimal places.</li>
 				</ul>
 			</ul>
 			<ul class="list-group list-group-flush"><li class="list-group-item">0.000001</li>
