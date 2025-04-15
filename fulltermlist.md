@@ -67,7 +67,7 @@
 		</tr>
         <tr>
 			<td>Relevant protocols</td>
-			<td>Most terms are relevant to all Bee Monitoring RCN protocols: Cariveau et al., 2024; Levenson et al., 2024; López-Uribe et al., 2024; Otto et al., 2024; Strange et al., 2024.</td>
+			<td>Most terms are relevant to <a href="https://journals.ku.edu/melittology/issue/view/2768">all Bee Monitoring RCN protocols</a>.</td>
 		</tr>
 		<tr>
 			<td>For more detail</td>
