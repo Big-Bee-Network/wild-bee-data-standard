@@ -1693,7 +1693,6 @@
 			<li class="list-group-item">destroyed</li>
 			<li class="list-group-item">Awaiting processing (with details provided in <b>dwc:materialEntityRemarks</b>)</li>
 			<li class="list-group-item">Missing head (with details provided in <b>dwc:materialEntityRemarks</b>)</li>
-				</ul>
 				</ul></td>
 		</tr>
         <tr>
