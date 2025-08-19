@@ -2782,7 +2782,7 @@
 	<tbody>
 		<tr>
 			<td>Definition</td>
-			<td>Comments or notes about a <MaterialEntity.</td>
+			<td>Comments or notes about a MaterialEntity.</td>
 		</tr>
         <tr>
 			<td>Rationale</td>
@@ -3419,3 +3419,4 @@
 		</tr>
 	</tbody>
 </table>
+
