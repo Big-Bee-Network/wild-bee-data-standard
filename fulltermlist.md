@@ -833,7 +833,7 @@
 		</tr>
 		<tr>
 			<td>For more detail</td>
-			<td><a href="https://dwc.tdwg.org/terms/#dwc:samplingProtocol"> https://dwc.tdwg.org/terms/#dwc:samplingProtocol</a>
+			<td><a href="https://dwc.tdwg.org/terms/#dwc:samplingProtocol"> https://dwc.tdwg.org/terms/#dwc:samplingProtocol</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -3419,4 +3419,5 @@
 		</tr>
 	</tbody>
 </table>
+
 
