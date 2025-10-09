@@ -2413,6 +2413,7 @@
 				<li class="list-group-item">larva</li>
 				<li class="list-group-item">pupa</li>
 				<li class="list-group-item">adult</li>
+				</ul>
 				</ul></td>
 		</tr>
 		<tr>
@@ -2456,6 +2457,7 @@
 				<ul><li class="list-group-item">queen</li>
 				<li class="list-group-item">worker</li>
 				<li class="list-group-item">drone</li>
+				</ul>
 				</ul></td>
 		</tr>
 		<tr>
@@ -2500,6 +2502,7 @@
 				<li class="list-group-item">collecting pollen</li>
 				<li class="list-group-item">collecting nectar</li>
 				<li class="list-group-item">nesting</li>
+				</ul>
 				</ul></td>
 		</tr>
 		<tr>
@@ -2543,6 +2546,7 @@
 				<ul><li class="list-group-item">alive</li>
 				<li class="list-group-item">dead</li>
 				<li class="list-group-item">moribund</li>
+				</ul>
 				</ul></td>
 		</tr>
 		<tr>
@@ -2726,7 +2730,7 @@
 		</tr>
         <tr>
 			<td>Relevant protocols</td>
-			<td>All,, particularly the molecular (López-Uribe et al., 2024) and parasite and pathogen (Strange et al., 2024) protocols.</td>
+			<td>All, particularly the molecular (López-Uribe et al., 2024) and parasite and pathogen (Strange et al., 2024) protocols.</td>
 		</tr>
 		<tr>
 			<td>For more detail</td>
@@ -3419,5 +3423,6 @@
 		</tr>
 	</tbody>
 </table>
+
 
 
