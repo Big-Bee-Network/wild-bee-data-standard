@@ -3,6 +3,6 @@ _The Wild Bee Data Standard_ is a standardized means of recording and reporting 
 
 To aid in the adoption and publication of data following _The Wild Bee Data Standard_, we provide two templates for entering compliant data into a computer [(Du Clos et al., 2025)](https://doi.org/10.5281/zenodo.14187861). Both templates contain descriptive information and instructions for use in a README tab, a metadata tab that can be used to populate metadata when publishing online, and a full term list with definitions and links to their Darwin Core (DwC) webpages.
 
-The [wiki](https://github.com/Big-Bee-Network/wild-bee-data-standard/wiki) within this repository features links to additional resources, suggestions for further reading, and a glossary of commonly used jargon in biodiversity informatics.
+The [wiki](https://github.com/Big-Bee-Network/wild-bee-data-standard/wiki) within this repository features links to additional resources, suggestions for further reading, and a glossary of concepts in biodiversity informatics.
 
 _The Wild Bee Data Standard_ was developed as part of the [US National Native Bee Monitoring Research Coordination Network](https://www.nativebeemonitoring.org/) and [is published](https://doi.org/10.17161/jom.vi123.23163) along with a series of complementary standardized protocols in [a special issue of the _Journal of Mellitology_](https://journals.ku.edu/melittology/issue/view/2768).
